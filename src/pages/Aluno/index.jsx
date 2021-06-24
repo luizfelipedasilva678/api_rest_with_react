@@ -4,7 +4,7 @@ import { Container } from '../../style/GlobalStyles';
 export default function Login() {
   return (
     <Container>
-      <h1>Login</h1>
+      <h1>Aluno</h1>
     </Container>
   );
 }
