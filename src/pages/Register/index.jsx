@@ -23,7 +23,7 @@ export default function Register() {
 
     setNome(nomeStored);
     setEmail(emailStored);
-  });
+  }, [emailStored, id, nomeStored]);
 
   async function handleSubmit(e) {
     e.preventDefault();
